@@ -1,0 +1,19 @@
+{
+  "name": "node-task",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Manage Tasks API",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "task",
+    "crud task"
+  ],
+  "author": "Adalid",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.2"
+  }
+}
